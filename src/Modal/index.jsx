@@ -55,7 +55,7 @@ export default function ModalFn() {
       >
         <div className="modal-header">
           <h3>Create a task</h3>
-          <div onClick={closeModal}>close</div>
+          <div onClick={closeModal} style={{ cursor: 'pointer' }}>Close</div>
         </div>
 
         <form onSubmit={getTaskName}>
